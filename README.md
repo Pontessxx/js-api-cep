@@ -1,3 +1,3 @@
 # js-consumindo-dados-api
-<video src="https://github.com/Pontessxx/js-api-cep/assets/126187491/197862ea-7237-4881-b3a0-7962dab6d0f5"></video>
+<video autoplay muted loop src="https://github.com/Pontessxx/js-api-cep/assets/126187491/bc439968-9a34-4fd7-91e3-b4095f6a2131"></video>
 Repositório do treinamento "JavaScript: Consumindo e tratando dados de uma API" da Alura Cursos Online.
