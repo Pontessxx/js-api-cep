@@ -1,6 +1,8 @@
 //console.log('Hello world')
 //O significado de API é Interface de Programação de Aplicações. Ela permite que dois componentes de software se comuniquem. Chamamos esses dois lados de cliente e servidor.
 async function buscaEndereco(cep){
+    var mensagemErro = document.getElementById('erro');
+    mensagemErro.innerHTML = '';
     try {
     var consultaCep = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
     var consultaCepConvertida = await consultaCep.json();
@@ -20,6 +22,7 @@ async function buscaEndereco(cep){
         console.log(consultaCepConvertida);
         return consultaCepConvertida
     }catch (erro){
+        mensagemErro.innerHTML = `<p>CEP. inválido tente novamente</p>`
         console.log(erro)
     }
 }
